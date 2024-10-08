@@ -98,7 +98,7 @@ body{
     height: 100%;
 }
 
-/* midnight party section styles starts here */
+/* 03. midnight party section styles starts here */
 .midnight-party-container{
     width: 1320px;
     height: 600px;
@@ -109,13 +109,13 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: overlay;
 }
 
 .leftside-content{
-    width: 50%;
-    height: 642px;
+    width: 55%;
+    height: 600px;
     /* border: 2px solid greenyellow; */
     display: flex;
     flex-direction: column;
@@ -129,24 +129,29 @@ body{
     font-family: inter;
     font-size: 64px;
     font-weight: 900;
+    margin-right: 60px;
    
 }
 
 .leftside-content p{
     color: rgba(255, 255, 255);
     font-family: inter;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     margin-left: 91px;
-    margin-top: 15px;
-    opacity: 0.8;
+    margin-top: 30px;
+    opacity: 0.;
 }
 
 .rightside-content{
-    width: 50%;
-    height: 642px;
-    /* border: 2px solid greenyellow; */
-   
+    width: 45%;
+    height: 600px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .btn{
@@ -155,4 +160,78 @@ body{
     margin-right: 215px;
     border-radius: 5px;
     margin-top: 100px;
+    font-weight: 900;
+}
+
+/* holiday styles */
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.holiday-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.holiday-text-container h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.color-red{
+    color: red;
+    font-size: 60px;
+    margin-right: 5px;
+}
+
+.color-black{
+    color: black;
+    font-size: 60px;
+}
+
+.holiday-text-container p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.solid-color-red{
+    width: 1319px;
+    height: 210px;
+    background-color: red;
+    position: absolute;
+    top: 79%;
+    border-radius: 5px;
+}
+
+.giftbox{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.girl-container{
+    margin-left: 91px;
+    margin-top: -169px;
+}
+
+.discount{
+    position: absolute;
+    left: 107%;
+    top: 75px;
 }
