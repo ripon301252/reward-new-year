@@ -272,7 +272,7 @@ body{
 .items img:hover{
     border: 2px solid blue;
     border-radius: 20px; 
-    background-color: #fe918b;
+    width: 300px;
 }
 
 /* footer styles */
